@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <form id="form" class="form" action="https://echo.htmlacademy.ru">
+    <div class="form__left">
+      <label for="select">Noni qanday bolsin</label>
+      <select name="pitsa" id="select">
+        <option value="yupqa">Yupqa</option>
+        <option value="qalin">Qalin</option>
+        <option value="ortacha">Ortacha</option>
+      </select>
+      <h3>Qalinligi</h3>
+      <div class="d-flex">
+        <label id="label1"><input class="radio1" id="25" name="name" value="25" type="radio"><label class="label1"
+            for="25">25sm</label></label>
+        <label id="label2"><input class="radio2" id="30" name="name" value="30" type="radio"><label class="label2"
+            for="30">30sm</label></label>
+        <label id="label3"><input class="radio3" id="35" name="name" value="35" type="radio"><label class="label3"
+            for="35">35sm</label></label>
+      </div>
+      <h3 class="title">Ustiga nima solaylik</h3>
+      <label class="wrapper"><input class="pomidor" id="pomidor" name="pomidor" type="checkbox"><label class="potato"
+          for="pomidor">Pomidor</label></label>
+      <label class="wrapper"><input id="kurka" name="kurka" type="checkbox"><label class="kurka"
+          for="kurka">Kurka</label></label>
+      <label class="wrapper"><input id="zaytun" name="zaytun" type="checkbox"><label class="zaytun"
+          for="zaytun">Zaytun</label></label>
+      <label class="wrapper"><input id="bodring" name="bodring" type="checkbox"><label class="bodring"
+          for="bodring">Tuzlangan bodring</label></label>
+      <label class="wrapper"><input id="qoziqorin" name="qoziqorin" type="checkbox"><label class="qoziqorin"
+          for="qoziqorin">Qoziqorin</label></label>
+      <label class="wrapper">
+        <input id="qazi" name="qazi" type="checkbox"><label class="qazi" for="qazi">Qazi</label>
+      </label>
+      <h3>Qoshimchalar</h3>
+      <label class="wrapper"><input id="achchiq" name="achchiq" type="checkbox"><label class="achchiq"
+          for="achchiq">Achchiq</label></label>
+      <label class="wrapper"><input id="sosiska" name="sosiska" type="checkbox"><label class="sosiska"
+          for="sosiska">Sosiska</label></label>
+
+    </div>
+    <div class="form__right">
+      <h3 class="bread-type">Non: <br><span class="bread">Yupqa</span></h3>
+      <h3 class="width">Kattaligi <br><span class="bread__width">30sm</span></h3>
+      <h3 class="adding">Ustida:</h3>
+      <h3 class="extra">Qoshimcha</h3>
+      <button class="btn btn-danger" form="form">Submit</button>
+    </div>
+
+  </form>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
